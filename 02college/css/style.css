@@ -47,7 +47,7 @@
 
 /*contents*/
 #contents{
-	height: 1300px;/* 나중에 높이값 삭제*/
+	_height: 1300px;/* 나중에 높이값 삭제*/
 	background-image: url(../images/bg_dot.gif),url(../images/main_bg.gif);
 	background-repeat: repeat,no-repeat;
 	background-position: center;
@@ -70,9 +70,13 @@
 
 
 #contents .title{width: 1200px;padding-top: 260px;/*background:pink;*/margin: 0 auto;}
-#contents .container{width: 1200px;margin: 0 auto;background: #fff;}
+#contents .container{width: 1200px;margin: 0 auto;_background: #fff;}
 #contents .container>ul>li{float: left;width: 25%;height: 225px;}
-#contents .container>ul>li:nth-child(2n){background:pink;}
+#contents .container>ul>li:nth-child(2n){_background:pink;}
+
+
+
+/*메인슬라이드*/
 #contents .container>ul>li:nth-child(1){
 	width: 75%;height: 450px;
 	padding-left: 100px;padding-top: 80px;
@@ -90,6 +94,10 @@
 	background:#0B0B61;
 	color: #fff;
 }
+
+
+
+/*스마트 도서관*/
 #contents .container>ul>li:nth-child(2){
 	height: 450px;background-image: url(../images/bg02.gif);
 	background-repeat: no-repeat; 
@@ -172,15 +180,52 @@
 
 
 
+/*캠퍼스 투어*/
 #contents .container>ul>li:nth-child(6){
 	background-image: url(../images/campusPic.gif);
 	background-repeat: no-repeat; 
 }
+#contents .container .bBox{
+	width: 299px;height: 52px;
+	background:black;margin-top: 176px;
+}
+#contents .container .bBox p{color:white;text-align: center;padding-top: 15px;}
+
+
+
+
+/*비디오코너*/
 #contents .container>ul>li:nth-child(7){
 	background-image: url(../images/videoPic.gif);
 	background-repeat: no-repeat; 
 }
+#contents .container .vCorner{
+	background: black;
+	width: 60px;height: 60px;
+	margin: 0 auto;margin-top: 80px;
+	border-radius: 60px;
+}
+#contents .container .vCorner a{
+	color:white;font-size: 35px;
+	padding-left: 15px;
+}
+
+
+
+
+/*신입생모집*/
 #contents .container>ul>li:nth-child(8){
 	width: 75%;background-image: url(../images/book.gif);
 	background-repeat: no-repeat; 
+}
+#contents .container .freshMan{color:red;}
+#contents .container .freshMan p{font-size: 30px;padding-top: 30px;padding-left: 43px;}
+#contents .container .freshMan h3{font-size: 50px;padding-left: 40px;}
+#contents .container .freshMan div{
+	background:red;border:1px solid white;
+	margin-left: 40px;display: inline-block;
+	height: 40px;
+}
+#contents .container .freshMan .p2{color: white;font-size: 15px;text-align: center;
+	position: relative; left: -20px; top: -20px;
 }
