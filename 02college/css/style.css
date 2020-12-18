@@ -164,7 +164,7 @@
 
 
 /*sns 뉴스*/
-#contents .container>ul>li:nth-child(5){}
+#contents .container>ul>li:nth-child(5){background: white;}
 #contents .container .sns h3{
 	font-size: 23px;
 	padding-left: 20px;padding-top: 20px;
