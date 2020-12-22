@@ -79,9 +79,11 @@
 /*메인슬라이드*/
 #contents .container>ul>li:nth-child(1){
 	width: 75%;height: 450px;
-	padding-left: 100px;padding-top: 80px;
+	/*padding-left: 100px;padding-top: 80px;*/
 	position: relative;
 }
+#contents .container li .img{width: 900px;height: 450px;}
+#contents .container .sliderTxt{position: absolute;left:100px;top:100px;}
 #contents .container .sliderTxt p{
 	font-size: 55px;line-height: 60px;
 	margin-bottom: 40px;color: darkblue;
@@ -95,10 +97,11 @@
 
 }
 #contents .container .sliderTxt a:hover{background: #fff;color: #333;}
-#contents .container .sliderTxt{position: absolute;}
+#contents .container .barL{position: absolute;top: 200px;left: 0;}
+#contents .container .barR{position: absolute;top: 200px;right: 0;}
 
 #contents .container .bx-wrapper {box-shadow: none; border: 0 none;}
-#contents .container .bx-pager{bottom:20px;}
+#contents .container .bx-pager{bottom:40px;}
 
 
 
@@ -114,11 +117,12 @@
 	font-size: 15px;
 	padding-top: 8px;padding-bottom: 8px;
 	padding-left: 40px;padding-right: 30px;
-	background: #000;
+	background:rgba(0,0,0,0.3);
 	color:white;
 	border: 1px solid white;
+	transition:0.3s;
 }
-#contents .container .smartTxt a:hover{background: #fff;color: #333;border-color: #333;}
+#contents .container .smartTxt a:hover{background:rbga(255,255,255,1);color: #333;border-color: #333;}
 
 
 
@@ -200,7 +204,7 @@
 }
 #contents .container .bBox{
 	width: 299px;height: 52px;
-	background:black;margin-top: 176px;
+	background:rgba(0,0,0,0.5);margin-top: 176px;
 }
 #contents .container .bBox p{color:white;text-align: center;padding-top: 15px;}
 #contents .container .bBox:hover{background: #fff;}
@@ -229,23 +233,22 @@
 
 
 /*신입생모집*/
-#contents .container>ul>li:nth-child(8){
-	width: 75%;background-image: url(../images/book.gif);
-	background-repeat: no-repeat; 
+#contents .container>ul>li:nth-child(8){width: 898px;height: 220px;}
+#contents .container .freshMan{position: relative;}
+#contents .container .freshMan .slider{color:red;}
+#contents .container .freshMan .slider p{font-size: 30px;padding-top: 30px;padding-left: 43px;position: absolute;}
+#contents .container .freshMan .slider h3{font-size: 50px;position: absolute;top: 60px;left: 40px;}
+#contents .container .freshMan .slider div{
+	background:rgba(225,0,0,0.5);border:1px solid white;
+	height: 40px;width: 150px;position: absolute;bottom: 50px;left: 43px;
 }
-#contents .container .freshMan{color:red;}
-#contents .container .freshMan p{font-size: 30px;padding-top: 30px;padding-left: 43px;}
-#contents .container .freshMan h3{font-size: 50px;padding-left: 40px;}
-#contents .container .freshMan div{
-	background:red;border:1px solid white;
-	margin-left: 40px;display: inline-block;
-	height: 40px;margin-top: 10px;
+#contents .container .freshMan .slider .p2{color: white;font-size: 15px;
+	position: absolute;bottom: 8px;left: -20px;
 }
-#contents .container .freshMan .p2{color: white;font-size: 15px;text-align: center;
-	position: relative; left: -20px; top: -20px;
-}
-#contents .container .freshMan .p2:hover{color: red;}
-#contents .container .freshMan div:hover{background: #fff;border-color: red;}
+#contents .container .freshMan .slider .p2:hover{color: red;}
+#contents .container .freshMan .slider div:hover{background: #fff;border-color: red;}
+#contents .container .freshMan .slider .img{width: 898px;height: 220px;position: absolute;}
+#contents .container .freshMan .bx-pager{top: 0;right: -390px;}
 
 
 
