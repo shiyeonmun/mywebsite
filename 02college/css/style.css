@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 /*header*/
 .util_menu_wrap{background: #0044AF;}
 .util_menu{width: 1200px;margin: 0 auto;}
@@ -81,8 +80,7 @@
 #contents .container>ul>li:nth-child(1){
 	width: 75%;height: 450px;
 	padding-left: 100px;padding-top: 80px;
-	background-image: url(../images/bg01.gif);
-	background-repeat: no-repeat;
+	position: relative;
 }
 #contents .container .sliderTxt p{
 	font-size: 55px;line-height: 60px;
@@ -94,9 +92,13 @@
 	padding-left: 40px;padding-right: 30px;
 	background:#0B0B61;
 	color: #fff;
+
 }
 #contents .container .sliderTxt a:hover{background: #fff;color: #333;}
+#contents .container .sliderTxt{position: absolute;}
 
+#contents .container .bx-wrapper {box-shadow: none; border: 0 none;}
+#contents .container .bx-pager{bottom:20px;}
 
 
 
