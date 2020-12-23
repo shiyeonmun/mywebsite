@@ -36,7 +36,7 @@
 
 .leftbox a{float:left;}
 
-.rightbox{margin-top: 50px;}
+.rightbox{margin-top: 60px;}
 .rightbox li{float: left;}
 .rightbox li a{margin-top: 40px;font-size: 20px;
 	text-align: center;line-height: 40px;
@@ -52,19 +52,18 @@
 	background-repeat: repeat,no-repeat;
 	background-position: center;
 	background-size: auto,cover;
-	/*padding-bottom: 100px;*/
 	} 
 
 .square{position: relative;width: 1200px;margin: 0 auto;}
 
 .mainTitle{width: 800px;margin: 0 auto;position: absolute;}
 .mainTitle p{color: #fff;}
-.mainTitle p:first-child{font-size: 45px;padding-top: 70px;}
+.mainTitle p:first-child{font-size: 45px;padding-top: 75px;}
 .mainTitle p:last-child{font-weight: bold;font-size: 60px;}
 .mainTitle ul{position: absolute;}
 
 .topIcon{position: absolute;padding-left: 740px;}
-.topIcon li{float: left;margin-left: 10px;margin-top: 70px;}
+.topIcon li{float: left;margin-left: 10px;margin-top: 75px;}
 .topIcon p{text-align: center;color: #fff;}
 
 
