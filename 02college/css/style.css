@@ -205,10 +205,11 @@
 #contents .container .bBox{
 	width: 299px;height: 52px;
 	background:rgba(0,0,0,0.5);margin-top: 176px;
+	transition: 0.3s;
 }
 #contents .container .bBox p{color:white;text-align: center;padding-top: 15px;transition:0.3s;}
 #contents .container .bBox:hover{background: #fff;}
-#contents .container .bBox p:hover{color: #333;transition:0.3s;}
+#contents .container .bBox p:hover{color: #333;}
 
 
 
@@ -222,10 +223,12 @@
 	width: 60px;height: 60px;
 	margin: 0 auto;margin-top: 80px;
 	border-radius: 60px;
+	transition: 0.3s;
 }
 #contents .container .vCorner a{
 	color:white;font-size: 35px;
 	padding-left: 15px;
+	transition: 0.3s;
 }
 #contents .container .vCorner:hover{background: #fff;}
 #contents .container .vCorner a:hover{color: #333;}
@@ -241,12 +244,13 @@
 #contents .container .freshMan .slider div{
 	background:rgba(225,0,0,0.5);border:1px solid white;
 	height: 40px;width: 150px;position: absolute;bottom: 50px;left: 43px;
+	transition: 0.3s;
 }
 #contents .container .freshMan .slider .p2{color: white;font-size: 15px;
-	position: absolute;bottom: 8px;left: -20px;
+	position: absolute;bottom: 8px;left: -20px;transition: 0.3s;
 }
 #contents .container .freshMan .slider .p2:hover{color: red;transition:0.3s;}
-#contents .container .freshMan .slider div:hover{background: #fff;border-color: red;transition:0.3s;}
+#contents .container .freshMan .slider div:hover{background: #fff;border-color: red;}
 #contents .container .freshMan .slider .img{width: 898px;height: 220px;position: absolute;}
 #contents .container .freshMan .bx-pager{top: 0;right: -390px;}
 
