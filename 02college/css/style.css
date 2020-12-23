@@ -97,11 +97,13 @@
 
 }
 #contents .container .sliderTxt a:hover{background: #fff;color: #333;}
-#contents .container .barL{position: absolute;top: 200px;left: 0;}
-#contents .container .barR{position: absolute;top: 200px;right: 0;}
+
+#contents .container .nextBtn,.prevBtn{position: absolute;top: 55%;margin-top:-50px;cursor: pointer;}
+#contents .container .nextBtn{right: 0;}
 
 #contents .container .bx-wrapper {box-shadow: none; border: 0 none;}
 #contents .container .bx-pager{bottom:40px;}
+
 
 
 

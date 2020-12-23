@@ -12,17 +12,28 @@
 	<script src="js/jquery.bxslider.js"></script>
 	<script>
 		$(document).ready(function(){
-			$(".slider").bxSlider({
+			var mySlider = $(".slider").bxSlider({
 				auto:true,
-				controls:true
+				controls:false
 			});
+		$(".nextBtn").click(function(){
+					mySlider.goToNextSlide();
+				});
+				$(".prevBtn").click(function(){
+					mySlider.goToPrevSlide();
+				});
 		});
+
+
 		$(document).ready(function(){
 			$(".slider2").bxSlider({
 				auto:true,
 				controls:false
 			});
 		});
+
+		
+
 	</script>
 <body>
 	<header id="header">
@@ -123,8 +134,8 @@
 								<p><strong>한국</strong>에서<br><strong>시작</strong>하는<br>새로운 <strong>꿈</strong></p>
 								<a href="#">자세히보기 ▶</a>
 							</div>
-							<a href="#"><img src="images/barL.gif" class="barL"></a>
-							<a href="#"><img src="images/barR.gif" class="barR"></a>
+							<div class="nextBtn"><img src="images/barR.gif" alt=""></div>
+							<div class="prevBtn"><img src="images/barL.gif" alt=""></div>
 						</li>
 						<li>
 							<img src="images/bg01.gif" class="img">
@@ -132,8 +143,8 @@
 								<p><strong>한국</strong>에서<br><strong>시작</strong>하는<br>새로운 <strong>꿈</strong></p>
 								<a href="#">자세히보기 ▶</a>
 							</div>
-							<a href="#"><img src="images/barL.gif" class="barL"></a>
-							<a href="#"><img src="images/barR.gif" class="barR"></a>
+							<div class="nextBtn"><img src="images/barR.gif" alt=""></div>
+							<div class="prevBtn"><img src="images/barL.gif" alt=""></div>
 						</li>
 						<li>
 							<img src="images/bg01.gif" class="img">
@@ -141,8 +152,8 @@
 								<p><strong>한국</strong>에서<br><strong>시작</strong>하는<br>새로운 <strong>꿈</strong></p>
 								<a href="#">자세히보기 ▶</a>
 							</div>
-							<a href="#"><img src="images/barL.gif" class="barL"></a>
-							<a href="#"><img src="images/barR.gif" class="barR"></a>
+							<div class="nextBtn"><img src="images/barR.gif" alt=""></div>
+							<div class="prevBtn"><img src="images/barL.gif" alt=""></div>
 						</li>
 						<li>
 							<img src="images/bg01.gif" class="img">
@@ -150,8 +161,8 @@
 								<p><strong>한국</strong>에서<br><strong>시작</strong>하는<br>새로운 <strong>꿈</strong></p>
 								<a href="#">자세히보기 ▶</a>
 							</div>
-							<a href="#"><img src="images/barL.gif" class="barL"></a>
-							<a href="#"><img src="images/barR.gif" class="barR"></a>
+							<div class="nextBtn"><img src="images/barR.gif" alt=""></div>
+							<div class="prevBtn"><img src="images/barL.gif" alt=""></div>
 						</li>
 					</ul>
 					
