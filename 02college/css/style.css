@@ -238,20 +238,20 @@
 /*신입생모집*/
 #contents .container>ul>li:nth-child(8){width: 898px;height: 220px;}
 #contents .container .freshMan{position: relative;}
-#contents .container .freshMan .slider{color:red;}
-#contents .container .freshMan .slider p{font-size: 30px;padding-top: 30px;padding-left: 43px;position: absolute;}
-#contents .container .freshMan .slider h3{font-size: 50px;position: absolute;top: 60px;left: 40px;}
-#contents .container .freshMan .slider div{
+#contents .container .freshMan .slider2{color:red;}
+#contents .container .freshMan .slider2 p{font-size: 30px;padding-top: 30px;padding-left: 43px;position: absolute;}
+#contents .container .freshMan .slider2 h3{font-size: 50px;position: absolute;top: 60px;left: 40px;}
+#contents .container .freshMan .slider2 div{
 	background:rgba(225,0,0,0.5);border:1px solid white;
 	height: 40px;width: 150px;position: absolute;bottom: 50px;left: 43px;
 	transition: 0.3s;
 }
-#contents .container .freshMan .slider .p2{color: white;font-size: 15px;
+#contents .container .freshMan .slider2 .p2{color: white;font-size: 15px;
 	position: absolute;bottom: 8px;left: -20px;transition: 0.3s;
 }
-#contents .container .freshMan .slider .p2:hover{color: red;transition:0.3s;}
-#contents .container .freshMan .slider div:hover{background: #fff;border-color: red;}
-#contents .container .freshMan .slider .img{width: 898px;height: 220px;position: absolute;}
+#contents .container .freshMan .slider2 .p2:hover{color: red;transition:0.3s;}
+#contents .container .freshMan .slider2 div:hover{background: #fff;border-color: red;}
+#contents .container .freshMan .slider2 .img{width: 898px;height: 220px;position: absolute;}
 #contents .container .freshMan .bx-pager{top: 0;right: -390px;}
 
 
