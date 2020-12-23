@@ -206,9 +206,9 @@
 	width: 299px;height: 52px;
 	background:rgba(0,0,0,0.5);margin-top: 176px;
 }
-#contents .container .bBox p{color:white;text-align: center;padding-top: 15px;}
+#contents .container .bBox p{color:white;text-align: center;padding-top: 15px;transition:0.3s;}
 #contents .container .bBox:hover{background: #fff;}
-#contents .container .bBox p:hover{color: #333;}
+#contents .container .bBox p:hover{color: #333;transition:0.3s;}
 
 
 
@@ -245,8 +245,8 @@
 #contents .container .freshMan .slider .p2{color: white;font-size: 15px;
 	position: absolute;bottom: 8px;left: -20px;
 }
-#contents .container .freshMan .slider .p2:hover{color: red;}
-#contents .container .freshMan .slider div:hover{background: #fff;border-color: red;}
+#contents .container .freshMan .slider .p2:hover{color: red;transition:0.3s;}
+#contents .container .freshMan .slider div:hover{background: #fff;border-color: red;transition:0.3s;}
 #contents .container .freshMan .slider .img{width: 898px;height: 220px;position: absolute;}
 #contents .container .freshMan .bx-pager{top: 0;right: -390px;}
 
