@@ -1,2 +1,49 @@
 @charset "utf-8";
 
+/*header*/
+.wrap{margin: 0 auto;}
+.containerOne{
+	margin: 0 auto;width: 1200px;height: 70px;
+	background-image: url(../images/hBg01.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+.containerOne .logo{margin-left: 180px; position: absolute;top:10px;}
+.containerOne .wrapForm{
+	position: absolute;left: 50%;top: 50%;
+	transform: translate(-80%,-50%);
+	background: #fff;
+	width: 280px;height: 28px;
+	border-radius: 50px;
+}
+.containerOne .wrapForm form{margin-left: 18px;margin-top: 2px;}
+.containerOne .wrapForm img{position: absolute;	top:5px;right:15px;}
+.containerOne .topRight p{
+	position: absolute;top:22px;right: 330px;
+	color: #fff;font-size: 20px;font-weight: bold;
+}
+.containerOne .topRight2{
+	float: left;margin-right: 5px;
+	position: absolute;
+	top:23px;right: 190px;
+}
+
+.blind{border-style: none;}
+
+
+.containerTwo{
+	display: block;margin: 0 auto;
+	width: 1200px;height: 50px;
+	background:#eee;
+	padding-left: 175px;
+}
+.containerTwo li{
+	float: left;line-height: 50px;
+	display: block;width: 140px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	font-size: 14px;font-weight: bold;
+}
+.containerTwo li:first-child{border-left: 1px solid #ccc;}
+.containerTwo a:hover{background: rgba(0,0,200,0.3);color: #fff;}
+
