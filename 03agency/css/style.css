@@ -43,7 +43,80 @@
 	text-align: center;
 	border-right: 1px solid #ccc;
 	font-size: 14px;font-weight: bold;
+	transition: 0.3s;
 }
 .containerTwo li:first-child{border-left: 1px solid #ccc;}
-.containerTwo a:hover{background: rgba(0,0,200,0.3);color: #fff;}
+.containerTwo li:hover{background: rgba(0,0,200,0.3);color: #fff;}
 
+
+
+/*body contents*/
+.container{
+	width: 1200px;height: 1200px;
+	background-image: url(../images/mainbg.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+	border-top: 5px solid darkblue;
+}
+.reserve{
+	display: block;
+	width:420px;height: 280px;
+	background:white;
+	position: absolute;
+	left: 175px;top: 50px;
+}
+.reserve ul{}
+.reserve ul li{
+	display: block;width: 130px;height: 70px;
+	background: darkblue;text-align: center;
+	padding-top: 25px;color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+.reserve ul li:first-child{background-color: white;color: #000;}
+
+
+/*트래블 고*/
+.travelGo{
+	width: 420px;height: 490px;background: pink;
+	float: right;position: absolute;
+	right:175px;top: 50px;
+}
+.travelGo div{padding-top: 10px;padding-left: 20px;}
+.travelGo h2{font-size: 40px;color: rgb(0,0,100);}
+.travelGo p{
+	font-size: 17px;font-weight: bold;
+	padding-top: 10px;color: rgb(0,0,100);
+}
+.travelGo img{position: relative;top:-120px;right: 50%;}
+
+
+/*콘텐츠 두개짜리*/
+.leftbox{
+	width: 205px;height: 200px;
+	background-image: url(../images/leftbox.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	top:340px;left:175px;
+}
+.rightbox{
+	width: 205px;height: 200px;
+	background-image: url(../images/rightbox.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	top:340px;left:390px;
+}
+.blueline{
+	width: 205px;height: 50px;
+	background: rgb(0,0,60);
+	color: #fff;
+	margin-top: 150px;
+	text-align: center;
+	line-height: 50px;
+}
+.leftbox p,.rightbox p{color: rgb(0,200,0);}
+.leftbox p,.leftbox h4,.leftbox div{display: inline-block;}
+.rightbox p,.rightbox h4,.rightbox div{display: inline-block;}
+
+
+/*콘텐츠 여덟개*/
