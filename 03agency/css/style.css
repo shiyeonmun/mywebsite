@@ -50,9 +50,10 @@
 
 
 
+
 /*body contents*/
 .container{
-	width: 1200px;height: 1200px;
+	width: 1200px;height: 1100px;
 	background-image: url(../images/mainbg.jpg);
 	background-repeat: no-repeat;
 /*	background-position: center;
@@ -93,6 +94,8 @@
 .travelGo img{position: relative;top:-120px;right: 50%;}
 
 
+
+
 /*콘텐츠 두개짜리*/
 .leftbox{
 	width: 205px;height: 200px;
@@ -122,6 +125,8 @@
 .rightbox p,.rightbox h4,.rightbox div{display: inline-block;}
 
 .blueline:hover{background: #eee;color: red;}
+
+
 
 
 /*콘텐츠 첫번째줄*/
@@ -259,3 +264,15 @@ color: #000;line-height: 20px;}
 	background: #fff;}
 .secondContent .circle .bar2{position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%) rotate(90deg);}
+
+
+
+/*footer*/
+.footer{width: 1200px;height: 150px;position: absolute;bottom: 0;left: 0;}
+.footer li{
+	float: left;display: block;line-height: 40px;
+	padding-top: 40px;padding-right: 15px;
+	font-size: 14px;
+}
+.footer li:first-child{padding-left:180px;}
+.footer p{font-size: 12px;float: left;padding-left: 180px;}
