@@ -88,6 +88,8 @@
 	padding-top: 15px;
 	position: absolute;
 }
+.leftbox:hover img{transform:scale(1.1);}
+.rightbox:hover img{transform: scale(1.1);}
 .leftbox{float: left;}
 .rightbox{position: absolute;width: 233px;right: 0;}
 .blueline{
@@ -184,7 +186,10 @@ color: #000;line-height: 20px;}
 .secondContent>ul>li:nth-child(1) .circle{
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%);
-	width: 30px;height: 30px;border: 2px solid #fff;border-radius: 100px;}
+	width: 30px;height: 30px;border: 2px solid #fff;
+	border-radius: 100px;
+	transition:0.3s;
+}
 .secondContent>ul>li:nth-child(1) .circle .bar1,.bar2{
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%);
@@ -193,6 +198,14 @@ color: #000;line-height: 20px;}
 .secondContent>ul>li:nth-child(1) .circle .bar2{
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%) rotate(90deg);}
+.secondContent>ul>li:nth-child(1) .cover1{
+	width: 233px;height: 233px;
+	position: absolute;
+	background:rgba(0,200,225,0.3);opacity:0;
+	transition:0.3s;
+}
+.secondContent>ul>li:nth-child(1) .circle:hover{transform:translate(-50%,-50%) rotate(135deg);}
+.secondContent>ul>li:nth-child(1) .cover1:hover{opacity:1;}
 
 
 .secondContent>ul>li:nth-child(2){position: relative;}
@@ -202,7 +215,9 @@ color: #000;line-height: 20px;}
 .secondContent>ul>li:nth-child(2) .circle{
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%);
-	width: 30px;height: 30px;border: 2px solid #fff;border-radius: 100px;
+	width: 30px;height: 30px;border: 2px solid #fff;
+	border-radius: 100px;
+	transition:0.3s;
 }
 .secondContent>ul>li:nth-child(2) .circle .bar1,.bar2{
 	position: absolute;top: 50%;left: 50%;
@@ -214,6 +229,14 @@ color: #000;line-height: 20px;}
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%) rotate(90deg);
 }
+.secondContent>ul>li:nth-child(2) .cover2{
+	width: 233px;height: 233px;
+	position: absolute;
+	background:rgba(0,0,0,0.5);opacity:0;
+	transition:0.3s;
+}
+.secondContent>ul>li:nth-child(2) .circle:hover{transform:translate(-50%,-50%) rotate(135deg);}
+.secondContent>ul>li:nth-child(2) .cover2:hover{opacity:1;}
 
 
 .secondContent>ul>li:nth-child(3){position: relative;}
@@ -223,7 +246,9 @@ color: #000;line-height: 20px;}
 .secondContent>ul>li:nth-child(3) .circle{
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%);
-	width: 30px;height: 30px;border: 2px solid #fff;border-radius: 100px;
+	width: 30px;height: 30px;border: 2px solid #fff;
+	border-radius: 100px;
+	transition:0.3s;
 }
 .secondContent>ul>li:nth-child(3) .circle .bar1,.bar2{
 	position: absolute;top: 50%;left: 50%;
@@ -235,6 +260,14 @@ color: #000;line-height: 20px;}
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%) rotate(90deg);
 }
+.secondContent>ul>li:nth-child(3) .cover2{
+	width: 233px;height: 233px;
+	position: absolute;
+	background:rgba(0,0,0,0.5);opacity:0;
+	transition:0.3s;
+}
+.secondContent>ul>li:nth-child(3) .circle:hover{transform:translate(-50%,-50%) rotate(135deg);}
+.secondContent>ul>li:nth-child(3) .cover2:hover{opacity:1;}
 
 
 .secondContent>ul>li:nth-child(4){position: relative;}
@@ -244,7 +277,9 @@ color: #000;line-height: 20px;}
 .secondContent>ul>li:nth-child(4) .circle{
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%);
-	width: 30px;height: 30px;border: 2px solid #fff;border-radius: 100px;
+	width: 30px;height: 30px;border: 2px solid #fff;
+	border-radius: 100px;
+	transition:0.3s;
 }
 .secondContent>ul>li:nth-child(4) .circle .bar1,.bar2{
 	position: absolute;top: 50%;left: 50%;
@@ -256,7 +291,14 @@ color: #000;line-height: 20px;}
 	position: absolute;top: 50%;left: 50%;
 	transform: translate(-50%,-50%) rotate(90deg);
 }
-
+.secondContent>ul>li:nth-child(4) .cover3{
+	width: 233px;height: 233px;
+	position: absolute;
+	background:rgba(0,250,150,0.3);opacity:0;
+	transition:0.3s;
+}
+.secondContent>ul>li:nth-child(4) .circle:hover{transform:translate(-50%,-50%) rotate(135deg);}
+.secondContent>ul>li:nth-child(4) .cover3:hover{opacity:1;}
 
 
 
