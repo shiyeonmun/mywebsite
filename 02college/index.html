@@ -32,14 +32,20 @@
 				auto:true,
 				controls:false
 			});
+
+		});
+		$(document).ready(function(){
+			$(".modal").colorbox({
+				rel:"modal"
+			});
+
 			$(".youtube").colorbox({
 				iframe:true,
 				innerWidth:560,
 				innerHeight:315
 			});
 
-		});
-		
+		})
 		
 
 	</script>
@@ -239,7 +245,7 @@
 
 	<!-- 25% --><li>
 					<div class="vCorner">
-						<a href="https://www.youtube.com/embed/uXaEgs8Jyx0" class="youtube">▶</a>
+						<a href="https://www.youtube.com/embed/uXaEgs8Jyx0" class="youtube modal">▶</a>
 					</div>
 				</li>
 	<!-- 75% --><li>
