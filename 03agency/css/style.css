@@ -73,7 +73,7 @@
 .reserve{
 	display: block;
 	width:482.5px;height: 280px;
-	background:white;
+	background:white;position: relative;
 }
 .reserve ul li{
 	display: block;width: 130px;height: 70px;
@@ -83,15 +83,29 @@
 }
 .reserve ul li:first-child{background-color: white;color: #000;}
 
+.reserve .choiceWrap1{width: 280px;position: absolute;top: 20px;right:35px;}
+.reserve .choiceWrap1 fieldset{border-style: none;}
+.reserve .choiceWrap1 legend{font-size: 14px;}
+
+.reserve .choiceWrap2{width: 60px;position: absolute;top: 70px;left: 150px;}
+.reserve .choiceWrap2 fieldset{border-style: none;}
+.reserve .choiceWrap2 legend{font-size: 14px;}
+
+.reserve .choiceWrap3{width: 60px;position: absolute;top: 70px;right: 100px;}
+.reserve .choiceWrap3 fieldset{border-style: none;}
+.reserve .choiceWrap3 legend{font-size: 14px;}
+
+
 .leftbox img,.rightbox img{
 	width: 233px;height: 233px;
 	padding-top: 15px;
 	position: absolute;
 }
-.leftbox:hover img{transform:scale(1.1);}
-.rightbox:hover img{transform: scale(1.1);}
-.leftbox{float: left;}
-.rightbox{position: absolute;width: 233px;right: 0;}
+.leftbox{float: left;transition: 0.3s;}
+.rightbox{position: absolute;width: 233px;right: 0;transition: 0.3s;}
+.leftbox:hover img{transform:scale(0.9);}
+.rightbox:hover img{transform: scale(0.9);}
+
 .blueline{
 	width: 233px;height: 50px;
 	background: rgb(0,0,60);
@@ -137,6 +151,14 @@
 	width: 233px;height: 50px;
 }
 .content>ul>li:nth-child(1) p{padding-left: 10px;padding-top: 3px;color: #fff;font-size: 15px;}
+/*.content .slider .nextBtn,.prevBtn{
+	width: 30px;height: 50px;
+	position: absolute;top: 0;cursor: pointer;
+}
+.content .slider .nextBtn{right: 0;}*/
+
+.content>ul>li:nth-child(1) .slider{width: 100%;height: 100px;}
+.content>ul>li:nth-child(1) .bx-wrapper{width: 50px;height: 50px;}
 
 
 .content>ul>li:nth-child(2){position: relative;}
