@@ -12,17 +12,22 @@
 	<script src="js/jquery.bxslider.js"></script>
 	<script>
 		$(document).ready(function(){
-			$(".slider").bxSlider({
+			var mySlider = $(".slider").bxSlider({
 				auto:true,
-				controls:false
-				pager:false
+				controls:false,
+				pager:false				
 			});
-		$(".nextBtn").click(function(){
-				mySlider.goToNextSlide();
+			var mySlider = $(".slider2").bxSlider({
+				auto:true,
+				controls:false,
+				pager:false				
 			});
-		$(".prevBtn").click(function(){
-				mySlider.goToPrevSlide();
-			});
+			$(".nextBtn").click(function(){
+					mySlider.goToNextSlide();
+				});
+			$(".prevBtn").click(function(){
+					mySlider.goToPrevSlide();
+				});
 		});
 		
 		
@@ -143,27 +148,59 @@
 
 		<div class="content">
 			<ul>
-				<li>
+				<li class="one">
 					<ul class="slider">
-						<li>
+						<li class="sOne">
 							<img src="images/content01.jpg" alt="">
 							<div>
 								<p>HILLTON HOTEL(PARIS)<br>★★★☆☆</p>
 							</div>
-							<div class="nextBtn"><img src="images/barR.gif" alt=""></div>
-							<div class="prevBtn"><img src="images/barL.gif" alt=""></div>
+						</li>
+						<li class="sOne">
+							<img src="images/content01.jpg" alt="">
+							<div>
+								<p>HILLTON HOTEL(PARIS)<br>★★★☆☆</p>
+							</div>
+						</li>
+						<li class="sOne">
+							<img src="images/content01.jpg" alt="">
+							<div>
+								<p>HILLTON HOTEL(PARIS)<br>★★★☆☆</p>
+							</div>
 						</li>
 					</ul>
-				</li>
-				<li class="slider">
-					<img src="images/content02.jpg" alt="">
-					<div>
-						<p>관광명소(디즈니랜드)<br>★★★☆☆</p>
-					</div>
 					<div class="nextBtn"><img src="images/barR.gif" alt=""></div>
 					<div class="prevBtn"><img src="images/barL.gif" alt=""></div>
 				</li>
-				<li>
+			</ul>
+			<ul>
+				<li class="two">
+					<ul class="slider2">
+						<li class="sTwo">
+							<img src="images/content02.jpg" alt="">
+							<div>
+								<p>관광명소(디즈니랜드)<br>★★★☆☆</p>
+							</div>
+						</li>
+						<li class="sTwo">
+							<img src="images/content02.jpg" alt="">
+							<div>
+								<p>관광명소(디즈니랜드)<br>★★★☆☆</p>
+							</div>
+						</li>
+						<li class="sTwo">
+							<img src="images/content02.jpg" alt="">
+							<div>
+								<p>관광명소(디즈니랜드)<br>★★★☆☆</p>
+							</div>
+						</li>
+					</ul>
+					<div class="nextBtn"><img src="images/barR.gif" alt=""></div>
+					<div class="prevBtn"><img src="images/barL.gif" alt=""></div>
+				</li>	
+			</ui>
+				
+				<li style="display: none;">
 					<img src="images/content03.jpg" alt="">
 					<p class="p1">TOKYO</p>
 					<div>
@@ -171,7 +208,7 @@
 						<p>습도 60% 바람 남남동 2m/s/p></p>
 					</div>
 				</li>
-				<li>
+				<li style="display: none;">
 					<img src="images/content04.jpg" alt="">
 					<p class="p1">"해외여행은 처음이었는데,<br>하이미디어여행 덕분에 무사히<br>다녀올 수 있었어요."</p>
 					<p class="p2">프랑스 파리 자유여행<br>★★★☆☆</p>
