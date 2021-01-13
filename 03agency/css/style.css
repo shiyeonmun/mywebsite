@@ -147,7 +147,7 @@
 .content>ul>li:nth-child(1){position: relative;}
 /*.content>ul>li:nth-child(1)>img{width: 233px;height: 233px;}
 */
-.content .one{width: 233px;height:233px;}
+.content>ul>li.one{width: 233px;height:233px;margin-right: 16px;}
 /*.content>ul>li:nth-child(1) div{position: absolute;bottom: 0;
 	background: rgb(0,120,0);
 	width: 233px;height: 50px;
@@ -170,14 +170,14 @@
 .content>ul>li:nth-child(1) .nextBtn{right: 0;}
 
 .content>ul>li:nth-child(2){position: relative;}
-/*.content>ul>li:nth-child(2)>img{width: 233px;height: 233px;}*/
+.content .two .slider2 .sTwo>img{width: 233px;height: 233px;}
 /*.content>ul>li:nth-child(2) div{position: absolute;bottom: 0;
 	background: rgb(0,0,60);
 	width: 233px;height: 50px;
 }*/
-.content .two{width: 233px;height: 233px;}
+.content>ul>li.two{width: 233px;height: 233px;margin-right: 15px;}
 .content>ul>li:nth-child(2) p{padding-left: 10px;padding-top: 3px;color: #fff;font-size: 15px;}
-.content>ul>li:nth-child(2) .slider2{width: 100%;height: 100%;}
+.content>ul>li:nth-child(2).slider2{width: 100%;height: 100%;}
 .content>ul>li:nth-child(2) .bx-wrapper {box-shadow: none; border: 0 none;}
 .content>ul>li:nth-child(2) .nextBtn,.prevBtn{
 	position: absolute;top: 55%;margin-top:-50px;cursor: pointer;
@@ -187,7 +187,7 @@
 
 
 .content>ul>li:nth-child(3){position: relative;}
-.content>ul>li:nth-child(3) img{width: 233px;height: 233px;}
+/*.content>ul>li:nth-child(3) img{width: 233px;height: 233px;}*/
 .content>ul>li:nth-child(3) div{position: absolute;bottom: 0;
 	width: 233px;height: 50px;
 	background: rgb(0,0,0,0.5);
