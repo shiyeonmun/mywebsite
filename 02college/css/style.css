@@ -57,6 +57,7 @@
 	background-repeat: repeat,no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding-bottom: 60px;
 	} 
 
 .square{position: relative;width: 1200px;margin: 0 auto;}
