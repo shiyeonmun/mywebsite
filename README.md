@@ -5,3 +5,4 @@ my website markup
 1. company http://lindsaymoon.github.io/mywebsite/04company
 1. fullpage https://lindsaymoon.github.io/mywebsite/05fullpage
 1. bootstrap https://lindsaymoon.github.io/mywebsite/bootstrap
+1. bootstrap https://lindsaymoon.github.io/mywebsite/bootstrap_v2
